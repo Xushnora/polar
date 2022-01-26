@@ -1,46 +1,71 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Heebo:wght@300;400;500&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:wght@400;700&family=Orelega+One&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Prata&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Heebo:wght@300;400;500&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:wght@400;700&family=Orelega+One&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Prata&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Fredoka+One&family=Heebo:wght@300;400;500&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:wght@400;700&family=Orelega+One&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Prata&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
+    /* font-family: 'Hind Madurai', sans-serif; */
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     min-height: 100vw;
-    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+:root{
+    --hind-language: 'Hind Madurai', sans-serif;
+    --fredoka-language: 'Fredoka One', cursive;
 }
 
 .container{
-    width: 1200px;
-    padding: 0 15px;
-}
-
-.sugar{
-    background-color: #F8EDF0;
-    padding: 30px 0;
-}
-
-.sugar__title{
-    font-weight: 600;
-    font-size: 44.2px;
-    line-height: 49px;
-    color: #150101;
-    margin-bottom: 16px;
-}
-
-.sugar__text{
-    font-size: 16px;
-    line-height: 24px;
-    color: #150101;
-    opacity: 0.6;
-    width: 442px;
-    margin-bottom: 35px;
+    width: 1150px;
+    padding: 0 10px;
 }
 
 a{
-    text-decoration: none
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header{
+    background-color: #f8Edf0;
+
+}
+
+.header__site{
+    padding-top: 10px;
+}
+
+.nav-item{
+    margin-left: 40px;
+}
+
+.nav-link{
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.active-home{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
 }
 
 .btn{
@@ -49,6 +74,578 @@ a{
     font-size: 16px;
     line-height: 19px;
     color: #FAFAFA;
-    background-color: #D64374;
+    background-color: #d64374;
     border-radius: 5px;
+
 }
+
+/*          HERO         */
+
+.hero__block{
+    display: flex;
+}
+
+.hero__description{
+    margin-top: 196px;
+}
+
+.hero__span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin-bottom: 6px;
+}
+
+.hero__title{
+    font-family: var(--fredoka-language);
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    width: 665px;
+    margin-bottom: 35px;
+}
+
+.hero__pink{
+    color: #d64374;
+}
+
+.text{
+    font-family: var(--hind-language);
+    font-size: 18px;
+    line-height: 27px;
+    color: #0f0101;
+    opacity: 0.6;
+}
+
+.hero-text{
+    margin-bottom: 50px;
+    width: 523px;
+}
+
+.hero__imgbox{
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.hero__img{
+    object-fit: contain;
+    position: absolute;
+    right: -100px;
+}
+
+
+/*  --  partner --   */
+
+.partner{
+    padding: 102px 0;
+}
+
+.partner__item{
+    padding-top: 33px;
+    padding-bottom: 27px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+}
+.partner__item:nth-child(1){
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+
+.partner__img{
+    margin-bottom: 25px;
+}
+
+.partner__title{
+    font-family: var(--hind-language);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.partner__text{
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    width: 198px;
+}
+
+/* ----     SUGAR   --- */
+
+.sugar{
+    background-color: #F8EDF0;
+    padding: 30px 0;
+}
+
+.sugar__title{
+    font-family: var(--hind-language);
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.sugar__text{
+    margin-bottom: 35px;
+    width: 523px;
+}
+
+.sugar__img{
+    object-fit: contain;
+}
+
+/* ---- PRODUCT ---- */
+
+.product{
+    padding-top: 137px;
+    padding-bottom: 150px;
+}
+
+.product__portion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-heading{
+    font-family: var(--hind-language);
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin-bottom: 64px;
+}
+
+.product__link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.pdoduct__link--active{
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+}
+
+.product__item:not(:nth-child(1)):hover .product__link{
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+}
+
+/*  BROWN-BLOCK   */
+
+.brown__imgbox{
+    margin-top: 50px;
+}
+.brown__desc{
+    margin-top: 100px;
+}
+
+.brown-box{
+    margin-left: 85px;
+}
+
+.cayenne-box{
+    margin-right: 85px;
+}
+
+.title-product{
+    font-family: var(--hind-language);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.brown__text{
+    margin-bottom: 28px;
+    width: 454px;
+}
+
+.valuta{
+    font-family: var(--hind-language);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.valuta-span{
+    font-family: var(--hind-language);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.cayenne{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
+
+/*      FRIENDS     */
+
+.frends__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.frends__nation{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.frends__name{
+    margin-bottom: 46px;
+}
+
+.frends__text{
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.frends__miniimg--aktive{
+    width: 58px;
+    height: 58px;
+    border: 2px solid #d64374;
+    border-radius: 50%;
+}
+
+.frends__imgbox{
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.frends__desc{
+    padding-top: 100px;
+}
+
+.frends__box{
+    margin-left: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
