@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 100vw;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.sugar{
+    background-color: #F8EDF0;
+    padding: 30px 0;
+}
+
+.sugar__title{
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+
+.sugar__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    width: 442px;
+    margin-bottom: 35px;
+}
+
+a{
+    text-decoration: none
+}
+
+.btn{
+    padding: 15px 45px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    background-color: #D64374;
+    border-radius: 5px;
+}
