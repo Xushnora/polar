@@ -105,7 +105,7 @@
                 <h2 class="product-heading">Our Product</h2>
                 <ul class="product__list row around">
                     <li class="product__list">
-                        <a class="product__link pdoduct__link--active" href="#">ICE CREAM</a>
+                        <a class="product__link product__link--active" href="#">ICE CREAM</a>
                     </li>
                     <li class="product__item">
                         <a class="product__link" href="#">CAYENNE CHOCOLATE</a>
@@ -193,7 +193,7 @@
     </section>
     <section class="servises"> 
         <div class="container">
-            <div class="servises__portion">
+            <div class="servises__portion row middle">
                 <div class="servises__imgbox">
                     <img class="servises__img" src="./images/card-ice.png" alt="photo" width="305" height="627">
                 </div>
@@ -201,17 +201,20 @@
                     <h2 class="servises__title">Simple Way To Order Your Food</h2>
                     <p class="servises__text text">Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts.</p>
                     <ul class="servises__list">
-                        <li class="servises__item">
-                            Select Your Food
+                        <li class="servises__item row middle">
+                            <img src="./images/aside-hand.svg" alt="hand" width="30" height="30">
+                            <p class="servises__minitext">Select Your Food</p> 
                         </li>
-                        <li class="servises__item">
-                            Add To Cart
+                        <li class="servises__item row middle">
+                            <img src="./images/aside-hand.svg" alt="pic" width="30" height="30">
+                            <p class="servises__minitext">Add To Cart</p>
                         </li>
-                        <li class="servises__item">
-                            Order Your Food
+                        <li class="servises__item row middle">
+                            <img src="./images/aside-hand.svg" alt="pic" width="30" height="30">
+                            <p class="servises__minitext">Order Your Food</p>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="row middle">
                         <li>
                             <a href="#">
                                 <img src="./images/google-play.png" alt="photo" width="200" height="77">
@@ -219,11 +222,22 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./images/google-play.png" alt="photo" width="200" height="77">
+                                <img src="./images/app-story2.png" alt="photo" width="173" height="88">
                             </a>
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="help"> 
+        <div class="container">
+            <div class="help__portion">
+                <h2 class="help__title">Have Question in Mind? Let us help you</h2>
+                <form class="help__form row middle">
+                    <input class="help__input" type="text" name="text" id="text" placeholder="Enter your question" required>
+                    <button class="help__btn" type="submit">Send</button>
+                </form>
             </div>
         </div>
     </section>

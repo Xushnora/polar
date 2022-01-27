@@ -234,7 +234,7 @@ ul{
     opacity: 0.6;
 }
 
-.pdoduct__link--active{
+.product__link--active{
     opacity: 1;
     border-bottom: 3px solid #D64374;
 }
@@ -345,6 +345,107 @@ ul{
 
 .frends__box{
     margin-left: 11px;
+}
+
+
+/* ----- SERVISES ----- */
+
+.servises{
+    background-color: #f8edf0;
+}
+
+.servises__desc{
+    margin-left: 130px;
+}
+
+/* .servises__imgbox{
+    position: relative;
+} */
+
+.servises__img{
+    position: relative;
+    left: 0;
+    top: 70px;
+}
+
+.servises__title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+}
+
+.servises__text{
+    width: 607px;
+    margin-bottom: 30px;
+}
+
+.servises__list{
+    margin-bottom: 41px;
+}
+
+.servises__item{
+    margin-bottom: 21px;
+}
+
+.servises__minitext{
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+    margin-left: 10px;
+}
+
+
+/*    HELP - INPUT     */
+
+.help{
+    padding: 190px 0 150px 0;
+}
+
+.help__portion{
+    transform: translateX(25%);
+    
+}
+
+.help__title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000;
+    width: 522px;
+    margin-bottom: 28px;
+}
+
+.help__input{
+    padding: 29px 450px 29px 30px;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.help__input:focus{
+    outline: 2px solid #d64374;
+}
+
+.help__btn{
+    padding: 28px 31px 28px 46px;
+    background: #D64374;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    position: absolute;
+    right: 450px;
+    border: none;
+}
+
+.help__form{
+    position: relative;
+    align-items: center;
+    transform: translateX(-5%);
 }
 
 
