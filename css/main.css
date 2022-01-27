@@ -430,7 +430,7 @@ ul{
 }
 
 .help__btn{
-    padding: 28px 31px 28px 46px;
+    padding: 28px 35px 28px 46px;
     background: #D64374;
     border-radius: 5px;
     font-weight: 500;
@@ -448,8 +448,123 @@ ul{
     transform: translateX(-5%);
 }
 
+/* ---------------FOOTER--------------- */
 
+.footer{
+    padding: 70px 0 104px 0;
+    background-color: #0a0808;
+}
 
+.footer__text{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 25px;
+    width: 207px;
+}
+
+.footer__span{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.footer__media-list{
+    width: 90px;
+}
+
+.footer__listbox{
+    margin-top: 100px;
+    margin-left: 37px;
+}
+
+.listbox__title{
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.listbox__item{
+    margin-bottom: 10px;
+}
+.listbox__link{
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.footer__list{
+    margin-top: 100px;
+    margin-left: 132px;
+}
+
+.footer__item{
+    margin-bottom: 10px;
+}
+
+.footer__link{
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.formbox__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.formbox__input{
+    padding: 20px 100px 19px 32px;
+    width: 388px;
+    opacity: 0.5;
+    border: 2px solid #D64374;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.formbox__input:focus{
+    outline: none;
+}
+
+.formbox__btn{
+    padding: 16px 18px;
+    background: #D23166;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    border: none;
+    position: relative;
+    left: -125px;
+}
+
+.formbox__input::placeholder{
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.formbox__form {
+    margin-bottom: 15px;
+}
+
+.footer__formbox{
+    margin-top: 40px;
+    transform: translateX(35%);
+}
 
 
 
