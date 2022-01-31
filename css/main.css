@@ -104,7 +104,8 @@ ul{
     line-height: 120.5%;
     color: #0F0101;
     opacity: 0.9;
-    width: 665px;
+    letter-spacing: 0.2px;
+    width: 680px;
     margin-bottom: 35px;
 }
 
@@ -148,13 +149,15 @@ ul{
     padding-top: 33px;
     padding-bottom: 27px;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.03);
+    outline: 1px solid rgba(0, 0, 0, 0.03);
     box-sizing: border-box;
     border-radius: 7px;
     text-align: center;
 }
-.partner__item:nth-child(1){
+
+.partner__item:hover{
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    outline: none;
 }
 
 .partner__img{
@@ -345,6 +348,15 @@ ul{
 
 .frends__box{
     margin-left: 11px;
+}
+
+.frends__arrow-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.frends__arrow-btn:focus{
+    outline: none;
 }
 
 
